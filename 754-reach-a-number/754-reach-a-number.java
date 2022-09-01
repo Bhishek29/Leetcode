@@ -1,7 +1,7 @@
 class Solution {
     public int reachNumber(int target) {
        
-        int steps = 1 ; int sum = 0 ;
+        int steps = 0 ; int sum = 0 ;
         
         if (target < 0 ){
             target = 0 - target ;
